@@ -1,5 +1,4 @@
-### Hi there 👋
-### Hello again 
+### Hi!
 
 <!--
 **Arushi55/Arushi55** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
