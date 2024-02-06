@@ -1,4 +1,5 @@
 ### Hi!
+I am a first-year student at Northeastern University, MA as a candidate for a Bachelor of Science in Computer Science and a minor in Robotics.
 
 <!--
 **Arushi55/Arushi55** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
