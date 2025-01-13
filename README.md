@@ -1,5 +1,7 @@
 ### Hi!
-I am a second-year student at Northeastern University, MA as a candidate for a Bachelor of Science in Computer Science and a minor in Robotics.
+I am a second-year student at Northeastern University, MA as a candidate for a Bachelor of Science in Computer Science with a concentration in Human-Centered Computing and a minor in Robotics.
+
+I am currently looking for a Summer/Fall 2025 co-op position in computing or robotics.
 
 <!--
 **Arushi55/Arushi55** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
