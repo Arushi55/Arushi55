@@ -3,6 +3,8 @@ I am a second-year student at Northeastern University, MA as a candidate for a B
 
 I am currently looking for a Summer/Fall 2025 co-op position in software engineering.
 
+Please inquire directly about access to private repositories with coursework from Fundamentals of Computer Science I, Fundamentals of Computer Science II, and Object-Oriented Design.
+
 <!--
 **Arushi55/Arushi55** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
