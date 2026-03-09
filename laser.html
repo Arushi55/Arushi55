@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arushi Aggarawl Personal Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <button id="HomeButton" class="nav-button">Home</button>
+    <script>
+      const HomeButton = document.getElementById("HomeButton");
+      HomeButton.addEventListener("click", function () {
+        window.location.href = "index.html";
+      });
+    </script>
+
+    <button id="laserCuttingButton" class="nav-button">Laser Cutting</button>
+    <script>
+      const laserCuttingButton = document.getElementById("laserCuttingButton");
+      laserCuttingButton.addEventListener("click", function () {
+        window.location.href = "laser.html";
+      });
+    </script>
+
+    <h1>Laser Cutting</h1>
+
+    <h3>Earrings</h3>
+    <div class="container">
+      <img src="./Earrings.jpg" width="300" />
+      <p>
+        These earrings were one of my first laser cutting projects. I designed
+        them in Adobe Illustrator and cut them out of medium density fiberboard
+        (MDF). The design is based on a pair of earrings that I found online
+        that I really liked, but I wanted to make them myself and add a bit of
+        my own flair to them.
+      </p>
+    </div>
+
+    <h3>Coasters</h3>
+    <div class="container">
+      <img src="./FlowerCoasters.jpg" width="300" />
+      <p>
+        These coasters were cut to be identical and able to be appreciated
+        individually, but to also be appreciated as a full set of four. The
+        design is based on a flower pattern that can be cut into four equal
+        pieces and then placed together to form a full flower. I designed the
+        pattern in Adobe Illustrator and cut it out of medium density fiberboard
+        (MDF). The unequal prior burning on the pieces from previous projects
+        adds a bit of character to the pieces and makes them more unique, which
+        I really like.
+      </p>
+    </div>
+
+    <h3>Other projects</h3>
+    <ul>
+      <li>Trivets</li>
+      <li>Bowls</li>
+      <li>Painting Frames</li>
+      <li>Picture Frames</li>
+    </ul>
+  </body>
+</html>

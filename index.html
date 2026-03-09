@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arushi Aggarawl Personal Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <button id="HomeButton" class="nav-button">Home</button>
+    <script>
+      const HomeButton = document.getElementById("HomeButton");
+      HomeButton.addEventListener("click", function () {
+        window.location.href = "index.html";
+      });
+    </script>
+
+    <button id="laserCuttingButton" class="nav-button">Laser Cutting</button>
+    <script>
+      const laserCuttingButton = document.getElementById("laserCuttingButton");
+      laserCuttingButton.addEventListener("click", function () {
+        window.location.href = "laser.html";
+      });
+    </script>
+    <h1>Arushi Aggarwal</h1>
+
+    <div class="container">
+      <img src="./Headshot.jpeg" width="300" />
+      <p>
+        Hello, my name is Arushi Aggarwal and I am a third year undergraduate
+        student at Northeastern University. I am majoring in Computer Science
+        and minoring in Robotics. I am passionate about the ability of physical
+        software to assist people in their daily lives. I am particularly
+        interested in Human-Robot Interaction and the different ways in which
+        people are or aren't willing to interact with robots based on their
+        physical and social presentation. I am also a published researcher in
+        the field of Human-Robot Interaction as well as Animal-Computer
+        Interaction, with work soon to be available in HRI'26 and CHI'26
+        proceedings respectively. These projects are parts of two separate
+        Northeastern University labs, the PARCS Lab with Professor Zhi Tan and
+        the INTERACT Animal Lab with Professor Rebecca Kleinberger.
+
+        <br />
+        <br />
+
+        Outside of academics, I am currently very interested in laser cutting. I
+        have made a series of projects spanning earrings, trivets, coasters,
+        bowls, and more. These projects are mostly made of medium density
+        fiberboard (MDF) and are designed in Adobe Illustrator before being cut
+        on a laser cutter as provided by Northeastern University. Additionally,
+        I am a frequent baker, and enjoy creating a variety of things from
+        cookies to cakes to bread. I am interested in ceramics and am looking to
+        find a way to pursue that interest in the future.
+      </p>
+    </div>
+
+    <h2>Contact</h2>
+    <p>I can be reached at aggarwal.arus@northeastern.edu</p>
+  </body>
+</html>

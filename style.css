@@ -1,0 +1,22 @@
+h1 {
+  text-align: center;
+}
+
+p {
+  width: 800px;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-button {
+  margin: 20px 0;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #93c5cf;
+  border-radius: 8px;
+}
