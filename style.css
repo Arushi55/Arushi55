@@ -7,6 +7,10 @@ p {
   margin: 0;
 }
 
+h3 {
+  font-family: "Ysabeau SC", sans-serif;
+}
+
 .container {
   display: flex;
   gap: 20px;
