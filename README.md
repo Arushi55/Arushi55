@@ -1,4 +1,5 @@
 ### Hi!
+
 I am a third-year student at Northeastern University, MA as a candidate for a Bachelor of Science in Computer Science with a concentration in Human-Centered Computing and a minor in Robotics.
 
 Please inquire directly about access to private repositories with coursework from Fundamentals of Computer Science I, Fundamentals of Computer Science II, and Object-Oriented Design.

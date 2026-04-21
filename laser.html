@@ -3,65 +3,103 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Arushi Aggarawl Personal Website</title>
+    <title>Making — Arushi Aggarwal</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@400;500;600;700&display=swap"
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Ysabeau SC"
     />
   </head>
   <body>
-    <button id="HomeButton" class="nav-button">Home</button>
-    <script>
-      const HomeButton = document.getElementById("HomeButton");
-      HomeButton.addEventListener("click", function () {
-        window.location.href = "index.html";
-      });
-    </script>
+    <nav class="navbar">
+      <div class="nav-inner">
+        <a href="index.html" class="nav-brand">Arushi Aggarwal</a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="robotics-research.html">Robotics Research</a></li>
+          <li><a href="aci-research.html">ACI Research</a></li>
+          <li><a href="projects.html">Software Projects</a></li>
+          <li><a href="laser.html" class="active">Making</a></li>
+        </ul>
+      </div>
+    </nav>
 
-    <button id="laserCuttingButton" class="nav-button">Laser Cutting</button>
-    <script>
-      const laserCuttingButton = document.getElementById("laserCuttingButton");
-      laserCuttingButton.addEventListener("click", function () {
-        window.location.href = "laser.html";
-      });
-    </script>
-
-    <h1>Laser Cutting</h1>
-
-    <h3>Earrings</h3>
-    <div class="container">
-      <img src="./Earrings.jpg" width="300" />
-      <p>
-        These earrings were one of my first laser cutting projects. I designed
-        them in Adobe Illustrator and cut them out of medium density fiberboard
-        (MDF). The design is based on a pair of earrings that I found online
-        that I really liked, but I wanted to make them myself and add a bit of
-        my own flair to them.
+    <div class="page-header">
+      <h1>Making & Fabrication</h1>
+      <p class="page-sub">
+        Laser cutting and other hands-on projects &nbsp;·&nbsp; Designed in
+        Adobe Illustrator &nbsp;·&nbsp; Cut from MDF
       </p>
     </div>
 
-    <h3>Coasters</h3>
     <div class="container">
-      <img src="./FlowerCoasters.jpg" width="300" />
-      <p>
-        These coasters were cut to be identical and able to be appreciated
-        individually, but to also be appreciated as a full set of four. The
-        design is based on a flower pattern that can be cut into four equal
-        pieces and then placed together to form a full flower. I designed the
-        pattern in Adobe Illustrator and cut it out of medium density fiberboard
-        (MDF). The unequal prior burning on the pieces from previous projects
-        adds a bit of character to the pieces and makes them more unique, which
-        I really like.
-      </p>
+      <section class="section">
+        <div class="project-figure">
+          <img src="Earrings.jpg" alt="Laser-cut earrings made from MDF" />
+          <div class="project-figure-body">
+            <h3>Earrings</h3>
+            <p>
+              These earrings were one of my first laser cutting projects. I
+              designed them in Adobe Illustrator, starting from a pair I found
+              online that I really liked, then adding my own modifications
+              before cutting them from medium density fiberboard (MDF) on
+              Northeastern's laser cutter.
+            </p>
+          </div>
+        </div>
+
+        <div class="project-figure">
+          <img
+            src="FlowerCoasters.jpg"
+            alt="Set of four flower-pattern laser-cut coasters"
+          />
+          <div class="project-figure-body">
+            <h3>Flower Coasters</h3>
+            <p>
+              This set of four coasters is designed so each piece works on its
+              own, but also fits together as a full flower pattern. I designed
+              the interlocking geometry in Adobe Illustrator and cut it from
+              MDF. The variation in burn tone across pieces — a side effect of
+              previous projects — gives each coaster a bit of unique character
+              that I really like.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Other Projects</h2>
+        <div class="grid-3">
+          <div class="card">
+            <h3>Trivets</h3>
+            <p>
+              Functional pieces for the kitchen, designed with interlocking
+              geometric patterns.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Bowls</h3>
+            <p>Layered MDF bowls assembled from individually cut rings.</p>
+          </div>
+          <div class="card">
+            <h3>Painting Frames</h3>
+            <p>Custom frames sized and styled for specific artwork.</p>
+          </div>
+          <div class="card">
+            <h3>Picture Frames</h3>
+            <p>Photo frames with decorative cut patterns along the border.</p>
+          </div>
+        </div>
+      </section>
     </div>
 
-    <h3>Other projects</h3>
-    <ul>
-      <li>Trivets</li>
-      <li>Bowls</li>
-      <li>Painting Frames</li>
-      <li>Picture Frames</li>
-    </ul>
+    <footer>
+      Arushi Aggarwal &nbsp;·&nbsp; Northeastern University &nbsp;·&nbsp;
+      <a href="mailto:aggarwal.arus@northeastern.edu"
+        >aggarwal.arus@northeastern.edu</a
+      >
+    </footer>
   </body>
 </html>
