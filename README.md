@@ -1,6 +1,6 @@
 ### Hi, I'm Arushi!
 
-I'm a third-year Computer Science student at Northeastern University with a concentration in Human-Centered Computing. My research sits at the intersection of HCI, robotics, and the natural world — I study how people interact with robots, and how we can build technology that genuinely serves animals too.
+I'm a fourth-year Computer Science student at Northeastern University with a concentration in Human-Centered Computing. My research sits at the intersection of HCI, robotics, and the natural world — I study how people interact with robots, and how we can build technology that serves animals too.
 
 ---
 
